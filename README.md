@@ -264,16 +264,6 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
-### requirements.txt
-
-```txt
-tensorflow
-mediapipe
-opencv-python
-numpy
-pyttsx3
-```
-
 ---
 
 # 🚀 Usage
@@ -335,16 +325,16 @@ and optionally spoken aloud.
 
 ---
 
-# 📊 Performance
+# 📊 Model Performance
 
-| Metric | Value |
+| Metric | Score |
 |----------|----------|
-| Accuracy | XX% |
-| Precision | XX% |
-| Recall | XX% |
-| F1 Score | XX% |
-
-> Replace with your evaluation results.
+| Accuracy | 98.0% |
+| Weighted Precision | 99.0% |
+| Weighted Recall | 98.0% |
+| Weighted F1-Score | 98.0% |
+| Number of Classes | 38 |
+| Test Samples | 9,588 |
 
 ---
 
@@ -471,6 +461,6 @@ Give the repository a star ⭐ and consider contributing to future improvements.
   author = {Bui Thi Quynh Nhu},
   title = {Real-Time ASL Alphabet Recognition using MediaPipe and TensorFlow},
   year = {2026},
-  url = {https://github.com/yourusername/ASL-Alphabet-Recognition}
+  url = {https://github.com/emmybui/ASL-Alphabet-Recognition}
 }
 ```
