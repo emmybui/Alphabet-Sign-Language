@@ -202,7 +202,7 @@ Benefits:
 ```text
 ASL-Alphabet-Recognition/
 │
-├── demo.py
+├── demo_2.py
 │
 ├── models/
 │   ├── hand_sign_static_mlp.keras
@@ -214,10 +214,6 @@ ASL-Alphabet-Recognition/
 ├── configs/
 │   └── label_map.json
 │
-├── assets/
-│   ├── demo.gif
-│   ├── architecture.png
-│   └── screenshots/
 │
 ├── requirements.txt
 │
